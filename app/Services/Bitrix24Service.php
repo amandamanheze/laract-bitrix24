@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace App\Services;
 require_once  '../vendor/autoload.php';
-require "../bitrix24-php-sdk/src/Services/ServiceBuilderFactory.php";
-require "../bitrix24-php-sdk/src/Services/AbstractService.php";
-require "../bitrix24-php-sdk/src/Services/CRM/CRMServiceBuilder.php";
 
 use Bitrix24\SDK\Services\ServiceBuilderFactory;
 use Monolog\Logger;
