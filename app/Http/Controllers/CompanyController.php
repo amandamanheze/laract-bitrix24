@@ -7,7 +7,6 @@ use App\Models\Contact;
 use App\Services\Bitrix24Service;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
-use Illuminate\Support\Facades\DB;
 
 class CompanyController extends Controller
 {
@@ -85,7 +84,6 @@ class CompanyController extends Controller
             'company' => $company
         ]);
     }
-
 
     public function update(Request $request, $id)
     {
